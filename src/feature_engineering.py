@@ -7,4 +7,3 @@ def add_technical_indicators(data):
     data['MACD_signal'] = MACD(data['Close']).macd_signal()
     data['RSI'] = RSIIndicator(data['Close']).rsi()
     return data.dropna()
-s
