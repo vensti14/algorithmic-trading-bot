@@ -1,0 +1,16 @@
+# data & artifacts
+data/
+models/
+uploads/
+*.joblib
+*.pkl
+artifacts.json
+baseline.json
+
+# allow demo CSVs but ignore all other CSVs
+*.csv
+!demos/*.csv
+
+# python cache
+__pycache__/
+*.pyc
